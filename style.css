@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    margin: auto;
+}
+img{
+    display: block;
+}
+/* NAV BAR */
+header img{
+    width: 50%;
+    height: auto;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    gap: 28px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+   
+}
+nav ul a:hover{
+    border-bottom: 2px solid red;
+    
+}
+.home{
+    border-bottom: 2px solid red;
+}
+.contact_us{
+    border: 1px solid black;
+    padding: 15px 25px 15px 25px ;
+    font-size: 0.9rem;
+    border-radius: 5px; 
+}
+.contact_us:hover{
+    background-color: black;
+    color:white;
+    border: none;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+}
+
+/* hero section */
+.green_circle{
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+    border: 1 px solid rgb(7, 170, 135);
+    background-color:rgb(7, 170, 135);
+}
+.phone_button{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    padding: 20px 40px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.phone_button:hover{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.hero_text h2{
+    font-size: 4.1rem;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.hero_p_text{
+    font-size: 1.1rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    line-height:2.5;
+    color: #111111;
+    font-family: "Open Sans", sans-serif;
+}
+.hero_text{
+    width: 400px;
+    margin-bottom: 100px;
+}
+.underline{
+    border-bottom: 1px solid black;
+}
+.hero{
+    position: relative;
+}
+
+.hero_image{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    bottom:1px;
+    right: 420px;
+}
+.hero_wrapper{
+    display: flex;   
+    justify-content: center; 
+    margin-left: 11px;
+    margin-top: 180px;
+    gap:100px;
+    align-items: center;
+    
+}
+/* First container */
+
+.container-one{
+    background-color: #293331;
+    padding: 50px;
+}
+.tools{
+    display:flex;
+    width: 1000px;
+    margin:auto;
+   
+}
+.tool{
+    border: 1px solid rgb(138, 133, 133);
+    padding:20px;
+    color:white;
+    margin: 15px;
+    position: relative;
+    width: 80%;
+    height: auto;
+    
+}
+.tool .background{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ff5a5a;
+}
+.tool img{
+    position: absolute;
+    bottom: 270px;
+    left: 42px;
+    width: 18%;
+    height: auto;
+}
+.tool .green{
+    background-color: #00ac92;
+}
+
+.tool h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+}
+.tool p{
+    line-height: 1.8;
+    font-size: 1rem;
+    width: 100%;
+}
+
+/* Second container */
+
+.container-two{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 1100px;
+    margin:100px auto 0;
+    column-gap: 20px;
+}
+.container-two h2{
+    font-size: 2.4rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+    
+}
+.container-two p{
+    line-height: 2;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+    margin-bottom: 40px;
+}
+.container-two-text{
+    width: 600px;
+}
+.container-two img{
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+}
+.container-two .learn-more{
+    padding: 17px 53px 19px 51px;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #111111;
+    text-decoration: none;
+    color: #111111;
+    
+}
+.freepik-image{
+    padding-bottom: 20px;
+}
+.container-two .learn-more:hover{
+    color: white;
+    background-color: black;
+}
+/* Third container */
+.certified-translation-wrapper{
+    background-color:rgb(7, 170, 135); 
+    padding: 80px 90px;
+    color: white;
+    
+}
+
+.certified-translation-wrapper h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 25px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.certified-translation-wrapper  p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    
+}
+.certified-translation-wrapper hr{
+    margin-top: 35px;
+    border: 0.125rem solid white;
+}
+.certified-translation-wrapper .achievements{
+    display: flex;
+    gap: 150px;
+    margin-top: 20px;
+}
+.certified-translation-wrapper .achievements .large-text{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.certified-translation-wrapper .achievements .small-text{
+    font-weight: 700;
+}
+.why-choose-us-wrapper{
+    background-color: #ff5a5a;
+    padding: 80px 90px;
+    color: white;
+}
+.why-choose-us-wrapper h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 25px;
+    font-family: "Open Sans", sans-serif;
+}
+.why-choose-us-wrapper p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+.why-choose-us-wrapper ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    line-height: 1.8;
+    margin-left: 18px;
+}
+.why-choose-us-wrapper ul li{
+    position: relative;
+}
+.why-choose-us-wrapper ul li::before{
+    content:  "✓";
+    position: absolute;
+    color: white;
+    left: -20px;
+    font-weight: 900;
+}
+.container-three .learn-more{
+    padding: 17px 40px 19px 40px;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-left: -20px;
+    margin-top: 20px;
+    width: 20%;
+    text-align: center;
+    
+}
+.container-three .learn-more:hover{
+    color: #ff5a5a;
+    background-color: white;
+}
+.container-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px auto 0;
+}
+
+/* Footer */
+
+.newsletter{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    gap: 200px;
+}
+.newsletter-text h3{
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+.newsletter-text{
+    padding:20px;
+    font-family: "Open Sans", sans-serif;
+}
+.newsletter-text p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.send-email form input{
+    background-color: transparent;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 280px;
+    margin-right: 30px;
+    border-color: white;
+    color: white;
+}
+
+.send-email form input::placeholder{
+    font-size: 1rem;
+    border: none;
+}
+
+.send-email form input:focus{
+    outline: none;
+}
+
+.send-email form{
+    display: flex;
+}
+
+.send-email form button{
+    padding: 15px;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    border-radius: 7px;
+    border: 1px solid #111111;
+    text-decoration: none;
+    color: white;
+    width: 33%;
+    background-color: #ff5a5a;
+    border: none;
+}
+
+.send-email form button:hover{
+    background-color:rgb(7, 170, 135); 
+}
+
+.contact{
+    display:flex;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.contact-info p{
+    font-size: 1.1rem;
+    line-height:2.5;
+}
+
+.footer-inner-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.courses ul{
+    list-style-type: none;
+    line-height: 2.5;
+    font-size: 1rem;
+}
+
+
+.courses ul li{
+    border: 1px solid transparent;
+}
+
+
+.courses h3{
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+.courses ul .long-white-line{
+    border-bottom:1px solid white;
+    width:43%;
+}
+
+
+.support ul{
+    list-style-type: none;
+    line-height: 2.5;
+    font-size: 1rem;
+    
+}
+
+.support h3{
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+
+
+
+.footer-logo{
+    width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+footer{
+    background-color: #293331;
+    color: white;
+    padding-top:100px;
+    padding-bottom: 100px;
+    margin-top: 200px;
+}
